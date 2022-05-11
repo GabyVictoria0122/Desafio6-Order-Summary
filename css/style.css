@@ -3,12 +3,44 @@
 body {
   background-color: hsl(225, 100%, 94%);
   font-size: 16px;
+  font-family: "Outfit", sans-serif;
+  text-align: center;
 }
 
 .conteudo {
   background-color: hsl(225, 100%, 98%);
   font-family: "Outfit", sans-serif;
+}
+
+.titulo1 {
+  font-weight: 900;
+  color: hsl(223, 47%, 23%);
+}
+
+.sub-titulo {
+  font-weight: 400;
+  color: hsl(224, 23%, 55%);
+}
+
+.change {
+  font-weight: 400;
+  color: hsl(245, 75%, 52%);
+  text-decoration: underline;
+}
+
+.b1 {
+  background-color: hsl(245, 75%, 52%);
+  border-radius: 5px;
+  box-shadow: 5px;
   font-family: "Red Hat Display", sans-serif;
+  font-weight: 400;
+  color: white;
+}
+
+.b2 {
+  font-family: "Red Hat Display", sans-serif;
+  font-weight: 400;
+  color: hsl(224, 23%, 55%);
 }
 
 .attribution {
