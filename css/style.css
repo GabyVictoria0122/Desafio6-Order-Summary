@@ -41,14 +41,17 @@ main {
   font-weight: 400;
   color: hsl(224, 23%, 55%);
   text-align: center;
+  margin: 0px 30.5px 20px 30.5px;
+  line-height: 1.8rem;
 }
 
 .valor-plano {
   display: flex;
-  justify-content: space-around;
+  justify-content: center;
   align-items: center;
   background-color: hsla(225, 100%, 94%, 0.466);
   border-radius: 15px;
+  margin: 0px 28px 20px 28px;
 }
 
 .change {
