@@ -34,16 +34,19 @@ main {
 .titulo1 {
   font-weight: 900;
   color: hsl(223, 47%, 23%);
+  text-align: center;
 }
 
 .sub-titulo {
   font-weight: 400;
   color: hsl(224, 23%, 55%);
+  text-align: center;
 }
 
 .valor-plano {
   display: flex;
   justify-content: space-around;
+  align-items: center;
   background-color: hsla(225, 100%, 94%, 0.466);
   border-radius: 15px;
 }
@@ -52,6 +55,12 @@ main {
   font-weight: 400;
   color: hsl(245, 75%, 52%);
   text-decoration: underline;
+}
+
+.botoes {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .b1 {
