@@ -17,6 +17,15 @@ main {
   justify-content: center;
   background-color: hsl(225, 100%, 94%);
 }
+
+@media (min-width: 1440px) {
+  main {
+    background-image: url("../images/pattern-background-desktop.svg");
+    background-repeat: no-repeat;
+    background-size: 1440px 800px;
+  }
+}
+
 .conteudo {
   width: 90%;
   height: 60%;
@@ -25,16 +34,38 @@ main {
   font-family: "Outfit", sans-serif;
   align-content: space-between;
 }
+@media (min-width: 1440px) {
+  .conteudo {
+    width: 40%;
+    height: 53%;
+    border-radius: 30px;
+    background-color: hsl(225, 100%, 98%);
+    font-family: "Outfit", sans-serif;
+    align-content: space-between;
+  }
+}
 
 .conteudo > img {
   border-radius: 15px 15px 0 0;
   width: 100%;
+}
+@media (min-width: 1440px) {
+  .conteudo > img {
+    border-radius: 30px 30px 0 0;
+    width: 100%;
+  }
 }
 
 .titulo1 {
   font-weight: 900;
   color: hsl(223, 47%, 23%);
   text-align: center;
+}
+@media (min-width: 1440px) {
+  .titulo1 {
+    margin-top: 50px;
+    font-size: 40px;
+  }
 }
 
 .sub-titulo {
@@ -43,6 +74,13 @@ main {
   text-align: center;
   margin: 0 32px 20px 32px;
   line-height: 1.8rem;
+}
+@media (min-width: 1440px) {
+  .sub-titulo {
+    font-size: 30px;
+    margin: 0 60px 20px 60px;
+    line-height: 2.8rem;
+  }
 }
 
 .valor-plano {
@@ -53,6 +91,19 @@ main {
   border-radius: 15px;
   margin: 0 28px 20px 28px;
 }
+
+@media (min-width: 1440px) {
+  .valor-plano {
+    font-size: 25px;
+    margin: 40px 50px 20px 50px;
+    justify-content: space-between;
+  }
+
+  .valor-plano > img {
+    width: 70px;
+    margin-left: 20px;
+  }
+}
 .titulo1-vp {
   font-weight: 900;
   color: hsl(223, 47%, 23%);
@@ -61,6 +112,15 @@ main {
   margin-block-start: 20px;
 }
 
+@media (min-width: 1440px) {
+  .titulo1-vp {
+    font-weight: 900;
+    color: hsl(223, 47%, 23%);
+    text-align: center;
+    margin-block-end: 10px;
+    margin-block-start: 20px;
+  }
+}
 .sub-titulo-vp {
   font-weight: 400;
   color: hsl(224, 23%, 55%);
@@ -74,11 +134,22 @@ main {
   color: hsl(245, 75%, 52%);
   text-decoration: underline;
 }
+@media (min-width: 1440px) {
+  .change {
+    margin-right: 20px;
+  }
+}
 
 .botoes {
   display: flex;
   flex-direction: column;
   margin: 0 28px 20px 28px;
+}
+
+@media (min-width: 1440px) {
+  .botoes {
+    margin: 40px 50px 20px 50px;
+  }
 }
 
 .b1 {
@@ -93,6 +164,12 @@ main {
   margin-top: 15px;
   z-index: 1;
 }
+@media (min-width: 1440px) {
+  .b1 {
+    height: 65px;
+    font-size: 25px;
+  }
+}
 
 .b2 {
   font-family: "Red Hat Display", sans-serif;
@@ -102,11 +179,18 @@ main {
   background-color: hsl(225, 100%, 98%);
   border: none;
 }
+@media (min-width: 1440px) {
+  .b2 {
+    height: 65px;
+    font-size: 25px;
+  }
+}
 
 .attribution {
   width: 100%;
   font-size: 11px;
   text-align: center;
+  margin-top: 20px;
 }
 .attribution a {
   color: hsl(228, 45%, 44%);
